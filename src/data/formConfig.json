@@ -1,0 +1,40 @@
+{
+  "BookingSteps": [
+    {
+      "id": 1,
+      "component": "Introduction",
+      "text": "Introduction",
+      "barColor" : "linear-gradient(149deg, rgb(107, 23, 333), .5%, rgb(107, 23, 227))"
+    },
+    {
+      "id": 2,
+      "component": "Calendar",
+      "text": "Schedule",
+      "barColor" : "green"
+    },
+    {
+      "id": 3,
+      "component": "BikePicker",
+      "text": "Rental",
+      "barColor" : "orange"
+    },
+    {
+      "id": 4,
+      "component": "Accessories",
+      "text": "Gear",
+      "barColor" : "linear-gradient(149deg, rgb(107, 23, 333), .5%, rgb(107, 23, 227))"
+    },
+    {
+      "id": 5,
+      "component": "Payment",
+      "text": "Payment",
+      "barColor" : "linear-gradient(149deg, rgb(107, 23, 333), .5%, rgb(150, 136, 1))"
+    },
+    {
+      "id": 6,
+      "component": "Confirmation",
+      "text": "Success",
+      "barColor" : "blue"
+    }
+  ]
+}

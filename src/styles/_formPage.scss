@@ -1,0 +1,38 @@
+@import './colors.scss';
+.formPage {
+	background: $white;
+	height: 100%;
+	overflow-x: scroll;
+	max-height: 75vh;
+	.formTitle {
+		display: flex;
+		align-items: center;
+		justify-items: center;
+		span {
+			margin-left: 1rem;
+			margin: 2%;
+			font-family: inherit;
+			font-weight: 900;
+			font-size: 3em;
+		}
+	}
+	.formArea {
+		min-height: 8rem;
+	}
+	.formWrap {
+		margin: 1em;
+		overflow-y: scroll;
+		span {
+			font-size: 12px;
+			color: #aaa;
+		}
+		input {
+			margin-top: 1rem;
+			font-size: 12px;
+			color: #aaa;
+		}
+		div {
+			padding: 0.5rem;
+		}
+	}
+}
